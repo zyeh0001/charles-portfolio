@@ -1,0 +1,9 @@
+export { HeroSection } from "./hero-section";
+export { ProjectsSection } from "./projects-section";
+export { ProjectCard } from "./project-card";
+export { EditorialProjectCard } from "./editorial-project-card";
+export { ImageGallery } from "./image-gallery";
+export { ExperienceSection } from "./experience-section";
+export { SkillsSection } from "./skills-section";
+export { AboutSection } from "./about-section";
+export { ContactForm } from "./contact-form";

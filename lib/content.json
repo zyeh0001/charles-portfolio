@@ -1,0 +1,241 @@
+{
+  "personalInfo": {
+    "name": "Charles Yeh",
+    "title": "Software Engineer",
+    "tagline": "Building modern web experiences with React, TypeScript, and a passion for clean code",
+    "email": "charlesyehtw@gmail.com",
+    "phone": "(61)423-105-719",
+    "location": "Melbourne, Australia",
+    "socials": {
+      "github": "https://github.com/zyeh0001",
+      "linkedin": "https://www.linkedin.com/in/charles-yeh-1b5950202/",
+      "instagram": "https://www.instagram.com/charles.gaga_/"
+    }
+  },
+
+  "about": "I'm a Software Engineer with a Master's degree in Information Technology from Monash University. With over 6 years of experience spanning web development, project management, and data analysis, I bring a unique blend of technical expertise and business acumen to every project.\n\nI specialize in building modern, scalable web applications using React, TypeScript, and cloud technologies. My approach combines strong problem-solving skills with a focus on user experience and clean, maintainable code.\n\nI'm passionate about transforming complex requirements into elegant solutions and continuously expanding my skills to stay at the forefront of web development.",
+
+  "experiences": [
+    {
+      "role": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "period": "Sep 2021 – Present",
+      "achievements": [
+        "Built and maintained multi-lingual websites for Taiwan-Japan exchange platform",
+        "Implemented responsive designs and optimized performance for diverse user bases",
+        "Collaborated directly with clients to translate requirements into technical solutions"
+      ]
+    },
+    {
+      "role": "FAE Engineer",
+      "company": "Greata International Corp",
+      "period": "Apr 2019 - Oct 2019",
+      "achievements": [
+        "Partnered with Delta Electronics on Government intelligent street lamp system in Taoyuan city",
+        "Provided pre-sales and after-sales technical support including problem solving and training",
+        "Conducted failure analysis on Microchip ICs using C programming and oscilloscope"
+      ]
+    },
+    {
+      "role": "Teaching Assistant",
+      "company": "Workforce Development Agency",
+      "period": "Aug 2018 - Oct 2020",
+      "achievements": [
+        "Assisted students with disabilities in completing IT certification courses",
+        "Provided guidance on various computer technician certifications",
+        "Developed accessible learning materials for online courses"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Monash University",
+      "degree": "Master of Information Technology",
+      "period": "Mar 2020 - Dec 2021",
+      "location": "Melbourne, Australia"
+    },
+    {
+      "institution": "National Dong Hwa University",
+      "degree": "Bachelor of Computer Science",
+      "period": "Sep 2014 - June 2018",
+      "location": "Taipei, Taiwan"
+    },
+    {
+      "institution": "California State University of Monterey Bay",
+      "degree": "Exchange Student",
+      "period": "Aug 2017 - Jan 2018",
+      "location": "California, USA",
+      "award": "International exchange scholarship from Ministry of Education, Taiwan"
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Frontend",
+      "skills": ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Material UI"]
+    },
+    {
+      "category": "Backend",
+      "skills": ["Node.js", "Express", "REST APIs", "AWS Services"]
+    },
+    {
+      "category": "Database",
+      "skills": ["MongoDB", "PostgreSQL", "Firebase", "Cassandra"]
+    },
+    {
+      "category": "Tools & Methods",
+      "skills": ["Git", "Agile/Scrum", "CI/CD", "Docker"]
+    },
+    {
+      "category": "Data & Visualization",
+      "skills": ["D3.js", "Tableau", "R", "Python"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "yumyum-recipe",
+      "title": "YumYum Recipe Finder",
+      "caption": "Full-stack MERN application for discovering and saving recipes",
+      "description": "A modern recipe finder with full authentication, CRUD operations for user-created recipes, and integration with Spoonacular API. Built with React, Redux Toolkit, Express, and MongoDB.",
+      "tags": ["React", "Redux", "MongoDB", "Express", "Tailwind CSS"],
+      "heroImage": "/images/projects/yumyum/yumyum1.png",
+      "galleryImages": [
+        "/images/projects/yumyum/yumyum1.png",
+        "/images/projects/yumyum/yumyum2.png",
+        "/images/projects/yumyum/yumyum3.png",
+        "/images/projects/yumyum/yumyum4.png",
+        "/images/projects/yumyum/yumyum5.png"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/zyeh0001/MERN-yumyum-recipe-app" }
+      ]
+    },
+    {
+      "id": "github-finder",
+      "title": "GitHub Finder",
+      "caption": "Search and explore GitHub users and their repositories",
+      "description": "A React application utilizing the GitHub REST API to search users and display their profiles and repositories. Features Context API for state management and Tailwind CSS with daisyUI for styling.",
+      "tags": ["React", "Context API", "Tailwind CSS", "GitHub API"],
+      "heroImage": "/images/projects/github-finder/github1.png",
+      "galleryImages": [
+        "/images/projects/github-finder/github1.png",
+        "/images/projects/github-finder/github2.png",
+        "/images/projects/github-finder/github3.png",
+        "/images/projects/github-finder/github4.png",
+        "/images/projects/github-finder/github5.png"
+      ],
+      "links": [
+        { "type": "live", "url": "https://github-finder-app-wheat-five.vercel.app/" },
+        { "type": "github", "url": "https://github.com/zyeh0001/github-finder-app-" }
+      ]
+    },
+    {
+      "id": "house-marketplace",
+      "title": "House Marketplace",
+      "caption": "Real estate listing platform with geolocation features",
+      "description": "A Firebase-powered marketplace for buying and selling properties. Features full CRUD functionality, Google Maps integration for property locations, and user authentication.",
+      "tags": ["React", "Firebase", "Google Maps", "Leaflet"],
+      "heroImage": "/images/projects/housing-market/housing1.png",
+      "galleryImages": [
+        "/images/projects/housing-market/housing1.png",
+        "/images/projects/housing-market/housing2.png",
+        "/images/projects/housing-market/housing3.png",
+        "/images/projects/housing-market/housing4.png",
+        "/images/projects/housing-market/housing5.png"
+      ],
+      "links": [
+        { "type": "live", "url": "https://house-market-app-rho.vercel.app/" },
+        { "type": "github", "url": "https://github.com/zyeh0001/House-Market-app" }
+      ]
+    },
+    {
+      "id": "skindicator",
+      "title": "Skindicator-X",
+      "caption": "AI-powered skin health awareness platform",
+      "description": "A health-focused web application providing skin cancer awareness and AI-based analysis. Users can upload skin images for preliminary assessment and find nearby dermatologists.",
+      "tags": ["React", "AI/ML", "AWS", "Healthcare"],
+      "heroImage": "/images/projects/skindicator/1.jpg",
+      "galleryImages": [
+        "/images/projects/skindicator/1.jpg",
+        "/images/projects/skindicator/2.png",
+        "/images/projects/skindicator/3.png",
+        "/images/projects/skindicator/4.png",
+        "/images/projects/skindicator/5.png"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/zyeh0001/Skindicator-x" }
+      ]
+    },
+    {
+      "id": "support-desk",
+      "title": "Support Desk",
+      "caption": "Customer support ticket management system",
+      "description": "Full-stack MERN application for managing support tickets. Features JWT authentication, Redux state management, and full CRUD operations for ticket management.",
+      "tags": ["React", "Redux", "MongoDB", "Express", "JWT"],
+      "heroImage": "/images/projects/support-desk/support1.png",
+      "galleryImages": [
+        "/images/projects/support-desk/support1.png",
+        "/images/projects/support-desk/support2.png",
+        "/images/projects/support-desk/support3.png",
+        "/images/projects/support-desk/support4.png"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/zyeh0001/-MERN-supportdesk-app" }
+      ]
+    },
+    {
+      "id": "australia-housing",
+      "title": "Australia Housing Analysis",
+      "caption": "Interactive data visualization of Australian housing trends",
+      "description": "A narrative visualization website exploring average housing prices in Australia, focusing on population impact and university locations. Built with D3.js featuring choropleth maps and animated bar charts.",
+      "tags": ["D3.js", "Data Visualization", "Python"],
+      "heroImage": "/images/projects/australia-housing/1.png",
+      "galleryImages": [
+        "/images/projects/australia-housing/1.png",
+        "/images/projects/australia-housing/2.png",
+        "/images/projects/australia-housing/3.png",
+        "/images/projects/australia-housing/4.png",
+        "/images/projects/australia-housing/5.png"
+      ],
+      "links": [
+        { "type": "live", "url": "https://zyeh0001.github.io/Australia-Housing-Analysis-D3/" },
+        { "type": "github", "url": "https://github.com/zyeh0001/Australia-Housing-Analysis-D3" }
+      ]
+    },
+    {
+      "id": "pain-diary",
+      "title": "Pain Diary",
+      "caption": "Mobile health tracking application for pain management",
+      "description": "An Android application enabling users to track pain experiences with intensity levels, locations, and environmental factors. Features daily/weekly/monthly reports and weather API integration.",
+      "tags": ["Android", "Firebase", "Java", "Healthcare"],
+      "heroImage": "/images/projects/pain-diary/1.jpeg",
+      "galleryImages": [
+        "/images/projects/pain-diary/1.jpeg",
+        "/images/projects/pain-diary/2.jpeg",
+        "/images/projects/pain-diary/3.jpeg",
+        "/images/projects/pain-diary/4.jpeg",
+        "/images/projects/pain-diary/5.jpeg"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/zyeh0001/Pain-Diary" }
+      ]
+    },
+    {
+      "id": "tag-tag",
+      "title": "Tag Tag",
+      "caption": "Cloud-based image storage with AI object detection",
+      "description": "AWS serverless solution utilizing S3, Lambda, API Gateway, and DynamoDB for automated image tagging. Features YOLO-based object detection for uploaded images.",
+      "tags": ["AWS", "Lambda", "S3", "DynamoDB", "YOLO"],
+      "heroImage": "/images/projects/tagtag/1.png",
+      "galleryImages": [
+        "/images/projects/tagtag/1.png",
+        "/images/projects/tagtag/2.png"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/ElvisLzw/fit5225_ass2" }
+      ]
+    }
+  ]
+}
