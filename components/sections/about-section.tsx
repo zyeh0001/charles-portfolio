@@ -2,7 +2,7 @@ import Image from "next/image";
 import { SectionHeader } from "@/components/shared/section-header";
 import { about, personalInfo } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Download } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -47,12 +47,6 @@ export function AboutSection() {
                 <a href={`mailto:${personalInfo.email}`}>
                   <Mail className="h-4 w-4 mr-2" />
                   Get in Touch
-                </a>
-              </Button>
-              <Button variant="ghost" size="sm" asChild className="press-effect">
-                <a href="/Charles_Yeh_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                  <Download className="h-4 w-4 mr-2" />
-                  Download CV
                 </a>
               </Button>
             </div>

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { SocialLinks } from "@/components/shared/social-links";
 import { personalInfo } from "@/lib/data";
-import { ArrowDown, Download, Terminal } from "lucide-react";
+import { ArrowDown, Terminal } from "lucide-react";
 
 export function HeroSection() {
   const [displayText, setDisplayText] = useState("");
@@ -33,15 +33,6 @@ export function HeroSection() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-  };
-
-  const handleDownloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "/Charles_Yeh_Resume.pdf";
-    link.download = "Charles_Yeh_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
   };
 
   return (
@@ -112,15 +103,6 @@ export function HeroSection() {
               ViewProjects
               <span className="text-primary-foreground/70">{' />'}</span>
               <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-0.5 transition-transform" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={handleDownloadResume}
-              className="press-effect group font-mono"
-            >
-              download(CV)
-              <Download className="ml-2 h-4 w-4 group-hover:scale-110 transition-transform" />
             </Button>
           </div>
         </div>
