@@ -1,7 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import { SectionHeader } from "@/components/shared/section-header";
 import { experiences, education } from "@/lib/data";
 import { GlassCard, GlassCardContent } from "@/components/ui/glass-card";
-import { Briefcase, GraduationCap, Award } from "lucide-react";
+import { Briefcase, GraduationCap, Award, ChevronDown, ChevronUp } from "lucide-react";
+
+const VISIBLE_COUNT = 2;
 
 interface TimelineItemProps {
   title: string;
@@ -15,6 +20,10 @@ interface TimelineItemProps {
 }
 
 function TimelineItem({ title, subtitle, period, items, award, icon, revealClass = "reveal-left", revealDelay = 0 }: TimelineItemProps) {
+  const [expanded, setExpanded] = useState(false);
+  const hasCollapse = items && items.length > VISIBLE_COUNT;
+  const visibleItems = hasCollapse && !expanded ? items!.slice(0, VISIBLE_COUNT) : items;
+
   return (
     <div
       className={`relative pl-8 pb-8 last:pb-0 group ${revealClass}`}
@@ -34,7 +43,7 @@ function TimelineItem({ title, subtitle, period, items, award, icon, revealClass
             <div className="p-2 rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
               {icon}
             </div>
-            <div className="space-y-2 min-w-0">
+            <div className="space-y-2 min-w-0 w-full">
               <div>
                 <h3 className="font-semibold text-lg font-heading group-hover:text-primary transition-colors duration-200">
                   {title}
@@ -43,9 +52,9 @@ function TimelineItem({ title, subtitle, period, items, award, icon, revealClass
                 <p className="text-xs text-muted-foreground mt-1">{period}</p>
               </div>
 
-              {items && items.length > 0 && (
+              {visibleItems && visibleItems.length > 0 && (
                 <ul className="space-y-1.5 mt-3">
-                  {items.map((item, index) => (
+                  {visibleItems.map((item, index) => (
                     <li
                       key={index}
                       className="text-sm text-muted-foreground flex items-start gap-2"
@@ -56,6 +65,25 @@ function TimelineItem({ title, subtitle, period, items, award, icon, revealClass
                     </li>
                   ))}
                 </ul>
+              )}
+
+              {hasCollapse && (
+                <button
+                  onClick={() => setExpanded((v) => !v)}
+                  className="mt-2 flex items-center gap-1 text-xs text-primary hover:text-primary/80 transition-colors"
+                >
+                  {expanded ? (
+                    <>
+                      <ChevronUp className="h-3 w-3" />
+                      Show less
+                    </>
+                  ) : (
+                    <>
+                      <ChevronDown className="h-3 w-3" />
+                      {items!.length - VISIBLE_COUNT} more
+                    </>
+                  )}
+                </button>
               )}
 
               {award && (

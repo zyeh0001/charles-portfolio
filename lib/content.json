@@ -13,35 +13,35 @@
     }
   },
 
-  "about": "I'm a Software Engineer with a Master's degree in Information Technology from Monash University. With over 6 years of experience spanning web development, project management, and data analysis, I bring a unique blend of technical expertise and business acumen to every project.\n\nI specialize in building modern, scalable web applications using React, TypeScript, and cloud technologies. My approach combines strong problem-solving skills with a focus on user experience and clean, maintainable code.\n\nI'm passionate about transforming complex requirements into elegant solutions and continuously expanding my skills to stay at the forefront of web development.",
+  "about": "I'm a Software Engineer with 6+ years of experience building production systems at scale — from fintech onboarding platforms to cloud-native microservice architectures. I care about the full picture: clean APIs, resilient architecture, and frontend experiences that actually ship.\n\nAt Zeller, I own the core onboarding flow serving both AU and UK markets — driving the architecture for cohort-based experiences, KYC logic, and the token-based design system that underpins it all. Previously at Nimo Industries, I owned the full-stack across 30+ AWS microservices and introduced patterns that standardised how the team handled state, auth, and third-party integrations.\n\nI work best at the intersection of technical depth and product clarity — turning ambiguous requirements into systems that are easy to extend, hard to break, and straightforward to hand off.",
 
   "experiences": [
     {
-  "role": "Software Engineer",
-  "company": "Zeller",
-  "period": "Dec 2023 – Present",
-  "achievements": [
-    "Built scalable onboarding features using React, TypeScript, GraphQL, Apollo Client, and styled-components across Onboarding V2, UK Expansion, and cohort-based onboarding experiences.",
-    "Delivered 10+ shared onboarding pages across multiple entity types, improving consistency and reducing duplicated implementation across onboarding journeys.",
-    "Refactored onboarding routes, checkpoints, and layouts, consolidating 4 layout components into 1 unified system to improve maintainability and UX consistency.",
-    "Designed a dynamic translation strategy based on domicile and entity type, enabling one onboarding architecture to support both AU and UK markets.",
-    "Leading Zeller Health Onboarding by evolving the theme architecture toward a token-based design system, creating a dedicated Health theme, and implementing cohort-specific onboarding logic.",
-    "Led the Zeller for Startups blog migration from Next.js and Tailwind into the React and TypeScript Merchant Portal, using Shadow DOM to isolate styles and prevent design-system conflicts."
-  ]
-},
-{
-  "role": "Full-Stack Developer",
-  "company": "Nimo Industries",
-  "period": "Apr 2022 – Dec 2023",
-  "achievements": [
-    "Built and deployed 30+ AWS-based microservices using S3, SES, SNS, SQS, DynamoDB, Aurora, Cognito, and Secrets Manager, improving system scalability and operational efficiency.",
-    "Integrated third-party services including CoreLogic, Lextech, Illion, and DocuSign to support property data, credit checks, identity verification, and digital contract workflows.",
-    "Delivered customer-facing lending features using React, TypeScript, Redux Toolkit, and Material UI, including loan statements, repayments, contracts, delinquency management, and API pagination.",
-    "Introduced Redux Toolkit and standardized frontend state management, reducing frontend bugs and redundant API calls across lending workflows.",
-    "Strengthened core banking services by improving architecture, validation, access control, JWT authentication, and OTP verification.",
-    "Created OpenAPI 3.0 documentation in Confluence and led backend engineers through solution design, code reviews, and workflow improvements."
-  ]
-},
+      "role": "Software Engineer",
+      "company": "Zeller",
+      "period": "Dec 2023 – Present",
+      "achievements": [
+        "Built onboarding features with React, TypeScript, GraphQL, and Apollo across V2, UK Expansion, and cohort experiences.",
+        "Delivered 10+ shared pages across entity types, reducing duplicated implementation across journeys.",
+        "Consolidated 4 layout components into 1 unified system, improving maintainability and UX consistency.",
+        "Designed a translation strategy enabling one architecture to support both AU and UK markets.",
+        "Leading Health Onboarding — building a token-based design system and cohort-specific onboarding logic.",
+        "Migrated the Startups blog into the Merchant Portal using Shadow DOM for style isolation."
+      ]
+    },
+    {
+      "role": "Full-Stack Developer",
+      "company": "Nimo Industries",
+      "period": "Apr 2022 – Dec 2023",
+      "achievements": [
+        "Built 30+ AWS microservices (S3, SES, SNS, SQS, DynamoDB, Aurora, Cognito), improving scalability.",
+        "Integrated CoreLogic, Lextech, Illion, and DocuSign for property data, credit, and contract workflows.",
+        "Built lending features with React, TypeScript, and Redux — loan statements, repayments, and contracts.",
+        "Introduced Redux Toolkit, standardizing state management and reducing bugs across lending workflows.",
+        "Improved core banking architecture, JWT auth, OTP verification, and access control.",
+        "Created OpenAPI 3.0 docs and led backend engineers through design, reviews, and improvements."
+      ]
+    },
     {
       "role": "Freelance Web Developer",
       "company": "Self-Employed",
@@ -96,105 +96,115 @@
     }
   ],
 
-"skills": [
-  {
-    "category": "Frontend",
-    "skills": [
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "Next.js",
-      "GraphQL",
-      "Apollo Client",
-      "Redux Toolkit",
-      "styled-components",
-      "Tailwind CSS",
-      "Material UI"
-    ]
-  },
-  {
-    "category": "Frontend Tools",
-    "skills": [
-      "Design Systems",
-      "Storybook",
-      "React Hook Form",
-      "Formik",
-      "Internationalization",
-      "Accessibility",
-      "Nx"
-    ]
-  },
-  {
-    "category": "Backend & APIs",
-    "skills": [
-      "Node.js",
-      "REST APIs",
-      "JWT",
-      "OTP",
-      "Microservices",
-      "AWS Lambda"
-    ]
-  },
-  {
-    "category": "Cloud & DevOps",
-    "skills": [
-      "DynamoDB",
-      "S3",
-      "SQS",
-      "SNS",
-      "SES",
-      "Aurora",
-      "Cognito",
-      "Secrets Manager",
-      "GitHub Actions",
-      "CI/CD"
-    ]
-  },
-  {
-    "category": "Testing & Tools",
-    "skills": [
-      "Jest",
-      "React Testing Library",
-      "Cypress",
-      "Percy",
-      "Nx",
-      "Vite",
-      "Git",
-      "Jira",
-      "Confluence"
-    ]
-  },
-  {
-    "category": "Mobile & Product",
-    "skills": [
-      "Flutter",
-      "Dart",
-      "React Konva",
-      "Product Thinking",
-      "AI-assisted Development"
-    ]
-  }
-],
+  "skills": [
+    {
+      "category": "Frontend",
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "GraphQL",
+        "Apollo Client",
+        "Redux Toolkit",
+        "styled-components",
+        "Tailwind CSS",
+        "Material UI"
+      ]
+    },
+    {
+      "category": "Frontend Tools",
+      "skills": [
+        "Design Systems",
+        "Storybook",
+        "React Hook Form",
+        "Formik",
+        "Internationalization",
+        "Accessibility",
+        "Nx"
+      ]
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": [
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "JWT",
+        "OTP",
+        "Microservices",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": [
+        "DynamoDB",
+        "S3",
+        "SQS",
+        "SNS",
+        "SES",
+        "Aurora",
+        "Cognito",
+        "Secrets Manager",
+        "GitHub Actions",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "Testing & Tools",
+      "skills": [
+        "Jest",
+        "React Testing Library",
+        "Cypress",
+        "Percy",
+        "Nx",
+        "Vite",
+        "Git",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
+      "category": "Mobile & Product",
+      "skills": [
+        "Flutter",
+        "Dart",
+        "React Konva",
+        "Product Thinking",
+        "AI-assisted Development"
+      ]
+    }
+  ],
 
   "projects": [
     {
-  "id": "willup",
-  "title": "WillUp Mission Alarm App",
-  "caption": "Mission-based alarm app designed to help users build stronger morning discipline",
-  "description": "A cross-platform mobile alarm app built with Flutter and Dart. WillUp requires users to complete wake-up missions such as mirror selfies, shake challenges, and voice affirmations before dismissing alarms. The app includes reusable mission architecture, Sleep and Focus modes, strict-mode behaviour, white-noise playback, and configurable validation flows.",
-  "tags": ["Flutter", "Dart", "Mobile App", "Product Design", "AI-assisted Development"],
-  "heroImage": "/images/projects/willup/willup1.png",
-  "galleryImages": [
-    "/images/projects/willup/willup1.png",
-    "/images/projects/willup/willup2.png",
-    "/images/projects/willup/willup3.png",
-    "/images/projects/willup/willup4.png",
-    "/images/projects/willup/willup5.png"
-  ],
-  "links": [
-    { "type": "github", "url": "https://github.com/zyeh0001/willup" }
-  ]
-},
+      "id": "willup",
+      "title": "WillUp Mission Alarm App",
+      "caption": "Mission-based alarm app designed to help users build stronger morning discipline",
+      "description": "A cross-platform mobile alarm app built with Flutter and Dart. WillUp requires users to complete wake-up missions such as mirror selfies, shake challenges, and drawing task before dismissing alarms. The app includes reusable mission architecture, Sleep and Focus modes, strict-mode behaviour, white-noise playback, and configurable validation flows.",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Mobile App",
+        "Product Design",
+        "AI-assisted Development"
+      ],
+      "heroImage": "/images/projects/willup/willup1.jpg",
+      "galleryImages": [
+        "/images/projects/willup/willup1.jpg",
+        "/images/projects/willup/willup2.jpg",
+        "/images/projects/willup/willup3.jpg",
+        "/images/projects/willup/willup4.jpg",
+        "/images/projects/willup/willup5.jpg",
+        "/images/projects/willup/willup6.jpg",
+        "/images/projects/willup/willup7.jpg",
+        "/images/projects/willup/willup8.jpg"
+      ],
+      "links": [
+        { "type": "github", "url": "https://github.com/zyeh0001/willup" }
+      ]
+    },
     {
       "id": "yumyum-recipe",
       "title": "YumYum Recipe Finder",
@@ -210,7 +220,10 @@
         "/images/projects/yumyum/yumyum5.png"
       ],
       "links": [
-        { "type": "github", "url": "https://github.com/zyeh0001/MERN-yumyum-recipe-app" }
+        {
+          "type": "github",
+          "url": "https://github.com/zyeh0001/MERN-yumyum-recipe-app"
+        }
       ]
     },
     {
@@ -228,8 +241,14 @@
         "/images/projects/github-finder/github5.png"
       ],
       "links": [
-        { "type": "live", "url": "https://github-finder-app-wheat-five.vercel.app/" },
-        { "type": "github", "url": "https://github.com/zyeh0001/github-finder-app-" }
+        {
+          "type": "live",
+          "url": "https://github-finder-app-wheat-five.vercel.app/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/zyeh0001/github-finder-app-"
+        }
       ]
     },
     {
@@ -248,7 +267,10 @@
       ],
       "links": [
         { "type": "live", "url": "https://house-market-app-rho.vercel.app/" },
-        { "type": "github", "url": "https://github.com/zyeh0001/House-Market-app" }
+        {
+          "type": "github",
+          "url": "https://github.com/zyeh0001/House-Market-app"
+        }
       ]
     },
     {
@@ -283,7 +305,10 @@
         "/images/projects/support-desk/support4.png"
       ],
       "links": [
-        { "type": "github", "url": "https://github.com/zyeh0001/-MERN-supportdesk-app" }
+        {
+          "type": "github",
+          "url": "https://github.com/zyeh0001/-MERN-supportdesk-app"
+        }
       ]
     },
     {
@@ -301,8 +326,14 @@
         "/images/projects/australia-housing/5.png"
       ],
       "links": [
-        { "type": "live", "url": "https://zyeh0001.github.io/Australia-Housing-Analysis-D3/" },
-        { "type": "github", "url": "https://github.com/zyeh0001/Australia-Housing-Analysis-D3" }
+        {
+          "type": "live",
+          "url": "https://zyeh0001.github.io/Australia-Housing-Analysis-D3/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/zyeh0001/Australia-Housing-Analysis-D3"
+        }
       ]
     },
     {
